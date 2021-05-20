@@ -4,6 +4,7 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import "./C2.scss";
+import pic108 from "../../../images/108.jpg";
 
 const responsive = {
   0: {
@@ -24,13 +25,13 @@ const responsive = {
   },
 };
 const pics = [
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "250"],
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "350"],
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "150"],
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "450"],
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "250"],
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "300"],
-  ["https://ahmed-hussain.netlify.app/static/media/g1.81c2a3eb.jpg", "400"],
+  [pic108, "250"],
+  [pic108, "350"],
+  [pic108, "150"],
+  [pic108, "450"],
+  [pic108, "250"],
+  [pic108, "300"],
+  [pic108, "400"],
 ];
 
 export default function C2(props) {

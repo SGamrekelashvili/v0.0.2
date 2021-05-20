@@ -6,9 +6,6 @@ import "./C3.scss";
 //dynamic images for cloth
 // [beta version] ==> in real application these images would be dynamically loaded fron an Actual endpoint
 
-import pic105 from "../../../images/105.jpg";
-import pic106 from "../../../images/106.jpg";
-import pic107 from "../../../images/107.jpg";
 import pic108 from "../../../images/108.jpg";
 
 const C3 = () => {
@@ -33,7 +30,7 @@ const C3 = () => {
 
       <div className="text-center px-1 px-sm-2 px-md-5">
         <div className="position-relative d-inline-block align-bottom w-17 mb-2 mb-md-0 img-con  mx-1 mx-md-4">
-          <img alt="shoes" src={pic105} className="w-100 " />
+          <img alt="shoes" src={pic108} className="w-100 " />
           <span className="position-absolute text-capitalize w-fa">
             ფეხსაცმელი
           </span>
@@ -43,7 +40,7 @@ const C3 = () => {
         </div>
 
         <div className="position-relative d-inline-block align-bottom w-17 mb-2 mb-md-0 img-con  mx-1 mx-md-4">
-          <img alt="clothes" src={pic106} className="w-100 " />
+          <img alt="clothes" src={pic108} className="w-100 " />
           <span className="position-absolute text-capitalize w-fa">
             ტანსაცმელი
           </span>
@@ -53,7 +50,7 @@ const C3 = () => {
         </div>
 
         <div className="position-relative d-inline-block align-bottom w-17 mb-2 mb-md-0 img-con  mx-1 mx-md-4">
-          <img alt="accessories" src={pic107} className="w-100 " />
+          <img alt="accessories" src={pic108} className="w-100 " />
           <span className="position-absolute text-capitalize w-fa">
             აქსესუარები
           </span>

@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./c1.scss";
 import pic_p1 from "../../../images/p1.jpg";
-import pi_cshoe from "../../../images/shoe.jpg";
-import pict_shirt from "../../../images/t_shirt.jpg";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 export default function C1() {
@@ -183,10 +182,16 @@ export default function C1() {
               </ul>
               <div>
                 <div className="my-3 mr-4 d-inline-block of-hidden-fixed col-4 col-sm-3 col-lg-5 img-cont">
-                  <img alt="shoes" src={pi_cshoe} />
+                  <img
+                    alt="shoes"
+                    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                  />
                 </div>
                 <div className="my-3 mr-4 d-inline-block of-hidden-fixed col-4 col-sm-3 col-lg-5 img-cont">
-                  <img alt="t-shirt" src={pict_shirt} />
+                  <img
+                    alt="t-shirt"
+                    src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+                  />
                 </div>
               </div>
             </div>
