@@ -1,0 +1,359 @@
+@import "../../App.scss";
+
+div.carousel div.thumbs-wrapper.axis-vertical {
+  display: none !important;
+}
+
+@media (max-width: 576px) {
+  .drop-menu {
+    background-color: #464646d1 !important;
+    width: 100vw !important;
+    overflow-y: scroll;
+    position: fixed !important;
+    height: 100vh;
+
+    i {
+      font-size: 24px;
+    }
+
+    .drop-h6 {
+      color: red !important;
+      font-size: 22px;
+    }
+
+    a {
+      color: white !important;
+    }
+  }
+  .c1 .neg-mb-2 {
+    margin-bottom: -12px;
+  }
+
+  .c1 .neg-mt-1 {
+    margin-top: -4px;
+  }
+
+  .c1 .neg-mt-2 {
+    margin-top: -16px;
+  }
+
+  .c1 .neg-mb-1 {
+    margin-bottom: -4px;
+  }
+
+  .c1 .fs-10 {
+    font-size: 10px !important;
+  }
+  .un {
+    border-bottom: 1px #dadada solid;
+  }
+
+  .uni {
+    font-size: 2.1vw;
+  }
+
+  .uni:nth-child(5) {
+    display: none !important;
+  }
+  .img-icons {
+    height: 6px;
+  }
+  .three {
+    font-size: 1.17vw;
+  }
+}
+// --------------------------------------------------------------------------------------------------
+@media (min-width: 577px) and (max-width: 767px) {
+  .c1 .neg-mb-2 {
+    margin-bottom: -15px;
+  }
+
+  .c1 .neg-mt-1 {
+    margin-top: -4px;
+  }
+
+  .c1 .c1 neg-mt-2 {
+    margin-top: -16px;
+  }
+
+  .c1 .neg-mb-1 {
+    margin-bottom: -4px;
+  }
+
+  .pos-sm-rel {
+    position: relative;
+  }
+  .un {
+    border-bottom: 1px #dadada solid;
+  }
+
+  .uni {
+    font-size: 11px;
+  }
+  .img-icons {
+    height: 10px;
+  }
+  .three {
+    font-size: 1.08vw;
+  }
+}
+// ----------------------------------------------------------------------------------------------------
+@media (min-width: 768px) and (max-width: 991px) {
+  .c1 .neg-mb-2 {
+    margin-bottom: 20px;
+  }
+  .c1 .neg-mt-1 {
+    margin-top: -4px;
+  }
+
+  .c1 .c1 neg-mt-2 {
+    margin-top: -16px;
+  }
+
+  .c1 .neg-mb-1 {
+    margin-bottom: -4px;
+  }
+  .c1 .of-hidden {
+    overflow: hidden !important;
+  }
+  .pos-sm-rel {
+    position: relative;
+  }
+  .un {
+  }
+
+  .uni {
+    font-size: 12px;
+  }
+  .img-icons {
+    height: 10px;
+  }
+  .three {
+    font-size: 1.06vw;
+  }
+  .three-cont {
+    border-top: 1px #dadada solid;
+    padding-bottom: 2px;
+  }
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 992px) and (max-width: 1199px) {
+  .c1 .neg-mb-2 {
+    margin-bottom: 20px;
+  }
+  .c1 .neg-mt-1 {
+    margin-top: -4px;
+  }
+
+  .c1 .c1 neg-mt-2 {
+    margin-top: -16px;
+  }
+
+  .c1 .neg-mb-1 {
+    margin-bottom: -4px;
+  }
+  .c1 .of-hidden {
+    overflow: hidden !important;
+  }
+  .pos-sm-rel {
+    position: relative;
+  }
+  .c1 .fs-11 {
+    font-size: 11px;
+  }
+  .un {
+  }
+
+  .uni {
+    font-size: 12px;
+  }
+  .img-icons {
+    height: 16px;
+  }
+  .three {
+    font-size: 1vw;
+  }
+  .three-cont {
+    border-top: 1px #dadada solid;
+    padding-bottom: 2px;
+  }
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 1200px) {
+  .c1 .neg-mb-2 {
+    margin-bottom: 20px;
+  }
+
+  .c1 .neg-mt-1 {
+    margin-top: -4px;
+  }
+
+  .c1 .c1 neg-mt-2 {
+    margin-top: -16px;
+  }
+
+  .c1 .neg-mb-1 {
+    margin-bottom: -4px;
+  }
+  .c1 .of-hidden {
+    overflow: hidden !important;
+  }
+  .pos-sm-rel {
+    position: relative;
+  }
+  .un {
+  }
+
+  .uni {
+    font-size: 12px;
+  }
+  .img-icons {
+    height: 12px;
+  }
+  .three {
+    font-size: 11px;
+  }
+  .three-cont {
+    border-top: 1px #dadada solid;
+    padding-bottom: 2px;
+  }
+}
+
+// utilities start
+
+@font-face {
+  font-family: "Mottek-Normal";
+  src: url("./font/Mottek-Normal.ttf.woff") format("woff"),
+    url("./font/Mottek-Normal.ttf.svg#Mottek-Normal") format("svg"),
+    url("./font/Mottek-Normal.ttf.eot"),
+    url("./font/Mottek-Normal.ttf.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.c1 .link-basic:hover {
+  text-decoration: none !important;
+}
+
+.c1 .w-fa {
+  width: -webkit-fill-available;
+}
+
+.c1 .hover-text-red:hover {
+  color: $hover-color !important;
+}
+.c1 .text-grey {
+  color: $primary-light-color;
+}
+
+.c1 .ls-1 {
+  letter-spacing: 0.75px;
+}
+
+.c1 .fs-11 {
+  font-size: 11px;
+}
+
+.c1 .fs-13 {
+  font-size: 13px;
+}
+
+.c1 .fs-14 {
+  font-size: 14px;
+}
+
+.c1 .fw-100 {
+  font-weight: 100 !important;
+}
+
+.c1 .fw-300 {
+  font-weight: 300 !important;
+}
+
+.c1 .fw-400 {
+  font-weight: 400 !important;
+}
+
+.c1 .fw-500 {
+  font-weight: 500 !important;
+}
+
+.c1 .fw-700 {
+  font-weight: 700 !important;
+}
+
+.c1 .fw-900 {
+  font-weight: 900 !important;
+}
+
+.c1 .pointer {
+  cursor: pointer;
+}
+
+.c1 .img-cont {
+  perspective: 1000px;
+  img {
+    transition: 2s all ease-in-out;
+    transform: translateZ(80px);
+    width: 100%;
+  }
+  img:hover {
+    transform: translateZ(0px);
+  }
+}
+
+//  utilities end
+
+// component styling start
+
+.reebok-font {
+  font-family: "Mottek-Normal" !important;
+}
+
+.c1 {
+  background-color: $secondary-color;
+  color: $primary-color;
+  border-bottom: 3px white solid;
+}
+
+.logo-img {
+  width: 60px;
+  margin-top: 10px;
+}
+
+.logo-img2 {
+  height: 40px;
+  margin-top: -5px;
+}
+
+.input-11 {
+  font-size: 12px;
+  background-color: #eaeaea;
+}
+
+.input-11:focus {
+  outline: none !important;
+  background-color: #cccccc;
+}
+
+.input-search-icon {
+  position: absolute;
+  top: 6px;
+  right: 5px;
+}
+.menu-icon {
+  font-size: 20px;
+  transform: translateY(7px);
+  padding-left: 20px;
+}
+
+.three-cont {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.c1 h6 {
+  opacity: 0.9 !important;
+}
+
+// component styling end

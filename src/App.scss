@@ -1,0 +1,19 @@
+$primary-color: black;
+$primary-light-color: #646464;
+$secondary-color: rgb(255, 255, 255);
+$hover-color: darkred;
+
+body {
+  color: $primary-color;
+  background-color: $secondary-color;
+}
+.bkg-white {
+  background-color: $secondary-color;
+}
+.text-white {
+  color: $secondary-color !important;
+}
+
+.text-grey {
+  color: $primary-light-color !important;
+}

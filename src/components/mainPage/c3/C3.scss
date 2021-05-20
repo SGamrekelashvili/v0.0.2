@@ -1,0 +1,363 @@
+@import "../../App.scss";
+
+@media (max-width: 576px) {
+  .c2 .clouds1 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -9px;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .lead {
+    font-size: 1rem;
+  }
+  .resp-h1 {
+    font-size: 1rem !important;
+  }
+
+  .c2 .img-con span {
+    font-size: 2.6vw;
+    bottom: 19%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 600;
+  }
+
+  .c2 .img-con a {
+    font-size: 2vw;
+    transition: 0.25s all ease-in-out;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 500;
+    opacity: 0.7 !important;
+    text-decoration: underline;
+  }
+  .w-17 {
+    width: 22%;
+  }
+}
+// --------------------------------------------------------------------------------------------------
+@media (min-width: 577px) and (max-width: 767px) {
+  .c2 .clouds1 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -30px;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .lead {
+    font-size: 1.25rem;
+  }
+  .resp-h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .c2 .img-con span {
+    font-size: 14px;
+    bottom: 16%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 600;
+  }
+  .c2 .img-con a {
+    font-size: 12px;
+    transition: 0.25s all ease-in-out;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 500;
+    opacity: 0.7 !important;
+    text-decoration: underline;
+  }
+  .w-17 {
+    width: 23.5%;
+  }
+}
+// ----------------------------------------------------------------------------------------------------
+@media (min-width: 768px) and (max-width: 991px) {
+  .c2 .clouds1 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .lead {
+    font-size: 1.25rem;
+  }
+  .resp-h1 {
+    font-size: 2rem !important;
+  }
+
+  .c2 .img-con span {
+    font-size: 14px;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 600;
+  }
+  .c2 .img-con a {
+    font-size: 12px;
+    transition: 0.25s all ease-in-out;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 500;
+    opacity: 0.7 !important;
+    text-decoration: underline;
+  }
+  .w-17 {
+    width: 17.5%;
+  }
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 992px) and (max-width: 1199px) {
+  .c2 .clouds1 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -67px;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .lead {
+    font-size: 1.25rem;
+  }
+  .resp-h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .c2 .img-con span {
+    font-size: 18px;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 600;
+  }
+  .c2 .img-con a {
+    font-size: 16px;
+    transition: 0.25s all ease-in-out;
+    bottom: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 500;
+    opacity: 0.7 !important;
+    text-decoration: underline;
+  }
+  .w-17 {
+    width: 17.5%;
+  }
+}
+// -----------------------------------------------------------------------------------------------------
+@media (min-width: 1200px) {
+  .c2 .clouds1 {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: -70px;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .lead {
+    font-size: 1.25rem;
+  }
+  .resp-h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .c2 .img-con span {
+    font-size: 20px;
+    bottom: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 600;
+  }
+  .c2 .img-con a {
+    font-size: 18px;
+    transition: 0.25s all ease-in-out;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $secondary-color;
+    font-weight: 500;
+    opacity: 0.7 !important;
+    text-decoration: underline;
+  }
+  .w-17 {
+    width: 17.5%;
+  }
+}
+// -------------------------------
+
+.c2 {
+  font-family: "Work Sans", sans-serif;
+}
+
+// utilities start
+
+.bg-black {
+  background-color: $primary-color !important;
+}
+
+.c2 .link-basic:hover {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+.over-hidden {
+  overflow: hidden !important;
+}
+
+.c2 .opacity-66 {
+  opacity: 0.66 !important;
+}
+
+.c2 .w-fa {
+  width: -webkit-fill-available;
+}
+
+.c2 .thick-border {
+  border-width: 2px !important;
+}
+
+.c2 .neg-mt-1 {
+  margin-top: -4px;
+}
+
+.c2 .c2 neg-mt-2 {
+  margin-top: -16px;
+}
+
+.c2 .neg-mb-1 {
+  margin-bottom: -4px;
+}
+
+.c2 .neg-mb-2 {
+  margin-bottom: -12px;
+}
+
+.c2 .text-grey {
+  color: #646464 !important;
+}
+
+.c2 .text-black {
+  color: $primary-color !important;
+}
+
+.c2 .ls-1 {
+  letter-spacing: 0.75px;
+}
+
+.c2 .fs-12 {
+  font-size: 12px;
+}
+
+.c2 .fs-14 {
+  font-size: 14px;
+}
+
+.c2 .fw-100 {
+  font-weight: 100 !important;
+}
+
+.c2 .fw-300 {
+  font-weight: 300 !important;
+}
+
+.c2 .fw-400 {
+  font-weight: 400 !important;
+}
+
+.c2 .fw-500 {
+  font-weight: 500 !important;
+}
+
+.c2 .fw-600 {
+  font-weight: 600 !important;
+}
+
+.c2 .fw-700 {
+  font-weight: 700 !important;
+}
+
+.c2 .fw-800 {
+  font-weight: 800 !important;
+}
+
+.c2 .fw-900 {
+  font-weight: 900 !important;
+}
+
+.c2 .pointer {
+  cursor: pointer;
+}
+
+.c2 .img-cont {
+  perspective: 1000px;
+  // width: 37.5%;
+  img {
+    transition: 2s all ease-in-out;
+    transform: translateZ(80px);
+    width: 100%;
+  }
+  img:hover {
+    transform: translateZ(0px);
+  }
+}
+
+//  utilities end
+
+// component styling start
+
+.c2 {
+  padding-top: 70px;
+}
+
+.c2-li {
+  transition: 0.1s all ease-in-out;
+  border-bottom: 2px transparent solid;
+  &:hover {
+    border-bottom: 2px white solid;
+    opacity: 1 !important;
+    font-size: 2 rem;
+  }
+}
+
+.c2 .img-con:not(.last) {
+  &:hover {
+    transform: translateY(-8px);
+  }
+}
+.c2 .img-con {
+  transition: 0.4s all ease-in-out;
+  perspective: 1000px;
+  overflow: hidden;
+
+  img {
+    transition: 2s all ease-in-out;
+    transform: translateZ(80px);
+    width: 100%;
+  }
+
+  a:hover {
+    opacity: 1 !important;
+  }
+}
+.c2 .img-con:hover img {
+  transform: translateZ(0px);
+}
+
+// component styling end
