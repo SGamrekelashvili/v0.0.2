@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import "./listing.scss";
 export default function Listing() {
@@ -72,7 +71,7 @@ const Card = ({ key, item, classes }) => {
                 <div class="h-bg-inner"></div>
               </div>
 
-              <a class="cart" href="#">
+              <a class="cart" href="google.com">
                 <span class="price">Click For </span>
                 <span class="add-to-cart">
                   <span class=" price">See Shop</span>
